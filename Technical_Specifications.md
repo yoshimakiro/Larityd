@@ -1,4 +1,4 @@
-# Larity: Technical Specification Document
+# Larity
 
 ```mermaid
 graph TD
