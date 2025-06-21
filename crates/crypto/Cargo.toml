@@ -1,0 +1,10 @@
+[package]
+name = "Larity-crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = "1.0"
+sphincs = { version = "0.3", features = ["shake256s"] }
+hex = "0.4"
+rand = "0.8"

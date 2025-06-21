@@ -1,0 +1,12 @@
+[package]
+name = "Larity-consensus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+blake3 = "1.0"
+Larity-crypto = { path = "../crypto" }
+Larity-model = { path = "../model" }
+parking_lot = "0.12"
