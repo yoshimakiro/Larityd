@@ -1,0 +1,9 @@
+[package]
+name = "chronos-state"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chronos-model = { path = "../model" }
+chronos-snarks = { path = "../snarks" }
+lru = "0.7"
